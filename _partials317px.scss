@@ -1,0 +1,18 @@
+@media (max-width: 317px) {
+  .nav-mini {
+    .container {
+    height: 250px;
+    }
+    p {
+      color: red; /*<--dodane dla unaocznienia nachodzenia tekstu*/
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .gallery {
+    [class*="col"] {
+      // margin-top: 140px;
+    }
+  }
+}
