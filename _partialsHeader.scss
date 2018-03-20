@@ -4,6 +4,8 @@ header {
 	height: 50px;
 	img {
 		padding: 10px 0;
+		max-height: 100%;
+    max-width: 100%;
 	}
 	ul {
 		display: flex;

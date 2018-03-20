@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 782px) {
   /* For desktop: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -58,9 +58,6 @@
 
   /* nav mini */
   .nav-mini {
-    .container {
-      margin-bottom: 10px;
-    }
     h2 {
       font-size: 25px;
       margin: 10px 0;
@@ -87,6 +84,7 @@
   /* promotional */
   .promotional {
     img {
+      max-width: 100%;
       // @extend .center;
       display: flex;
       justify-content: center;
@@ -137,6 +135,7 @@
     }
     .col-7 {
       padding-left: 0;
+      word-wrap: break-word;
     }
   }
 } /*the end @media (max-width: 767px)*/

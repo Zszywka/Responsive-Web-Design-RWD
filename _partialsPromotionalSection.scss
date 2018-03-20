@@ -24,6 +24,7 @@
   	text-transform: $big-letters;
   	font-weight: $fat-fonts;
   	font-size: 30px;
+    word-wrap: break-word;
   	@extend .promotionalColorAndPadding;
   }
   .col-6 {
